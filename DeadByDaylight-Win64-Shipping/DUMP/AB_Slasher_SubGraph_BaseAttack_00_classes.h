@@ -1,0 +1,92 @@
+// AnimBlueprintGeneratedClass AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C
+// Size: 0x198a (Inherited: 0x620)
+struct UAB_Slasher_SubGraph_BaseAttack_00_C : UKillerAttackSubAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x620(0x08)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x628(0x38)
+	struct FAnimNode_LinkedInputPose AnimGraphNode_SubInput; // 0x660(0x120)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; // 0x780(0x158)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_21; // 0x8d8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_20; // 0x900(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_19; // 0x928(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_18; // 0x950(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_17; // 0x978(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_16; // 0x9a0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_15; // 0x9c8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_14; // 0x9f0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_13; // 0xa18(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_12; // 0xa40(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_11; // 0xa68(0x28)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5; // 0xa90(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_12; // 0xb10(0x38)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; // 0xb48(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_11; // 0xbc8(0x38)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; // 0xc00(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_10; // 0xc80(0x38)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; // 0xcb8(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_9; // 0xd38(0x38)
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; // 0xd70(0x80)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_8; // 0xdf0(0x38)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_10; // 0xe28(0x30)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_7; // 0xe58(0x38)
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine_3; // 0xe90(0xb0)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; // 0xf40(0x158)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_10; // 0x1098(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_9; // 0x10c0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_8; // 0x10e8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_7; // 0x1110(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; // 0x1138(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; // 0x1160(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; // 0x1188(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; // 0x11b0(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; // 0x11d8(0x28)
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; // 0x1200(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_9; // 0x1228(0x30)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_4; // 0x1258(0xc0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_8; // 0x1318(0x30)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_3; // 0x1348(0xc0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_7; // 0x1408(0x30)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_2; // 0x1438(0xc0)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_6; // 0x14f8(0x30)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_6; // 0x1528(0x38)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_5; // 0x1560(0x30)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; // 0x1590(0x30)
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend; // 0x15c0(0xc0)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; // 0x1680(0x38)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; // 0x16b8(0x30)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; // 0x16e8(0x38)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; // 0x1720(0x30)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; // 0x1750(0x38)
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine_2; // 0x1788(0xb0)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; // 0x1838(0x38)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; // 0x1870(0x30)
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; // 0x18a0(0x38)
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; // 0x18d8(0xb0)
+	bool _isIdle; // 0x1988(0x01)
+	bool _isAttack; // 0x1989(0x01)
+
+	void AnimGraph(struct FPoseLink InPose, struct FPoseLink& AnimGraph); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_64A870D94C5BBB4145B273A43D530989(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_64A870D94C5BBB4145B273A43D530989 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_B50A67404182E787316715BE18637400(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_B50A67404182E787316715BE18637400 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_0E0E289545D87547ADD7629603810F1A(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_0E0E289545D87547ADD7629603810F1A // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_45287DF740DD3332676783AC3B85138E(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_45287DF740DD3332676783AC3B85138E // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_342A66F848F32A23C26F1E905C58406D(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_342A66F848F32A23C26F1E905C58406D // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_7A7167C2435FA741869C96BE3B8AB485(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_7A7167C2435FA741869C96BE3B8AB485 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_E641D7DC48F31981B233F3AC03771762(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_E641D7DC48F31981B233F3AC03771762 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_EA11CD8745C33480B79FFF97AB1F33C4(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_EA11CD8745C33480B79FFF97AB1F33C4 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_EA7C5D464C165E9C940C15A81932636A(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_EA7C5D464C165E9C940C15A81932636A // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_0A357C3A41BE982F3FBF4298AABDDC8F(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_0A357C3A41BE982F3FBF4298AABDDC8F // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_DF31B43E4347AF97EF880CB0C46FDDDB(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_DF31B43E4347AF97EF880CB0C46FDDDB // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_36E899A04054E48D0E447BAD9F85D6D8(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_36E899A04054E48D0E447BAD9F85D6D8 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_685EC00942748326C6A2F0B95223E4A2(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_685EC00942748326C6A2F0B95223E4A2 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_536BEE4049AB5907F033B3ABD67EEC4F(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_536BEE4049AB5907F033B3ABD67EEC4F // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_D3A76D6047C3FF393368398A9E02B6F6(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_D3A76D6047C3FF393368398A9E02B6F6 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_6F6204FB454B3950C32C518A52645928(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_6F6204FB454B3950C32C518A52645928 // (BlueprintEvent) // @ game+0x5e02c90
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_71A6612B43EE8076A3E736847A5D18F0(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00_AnimGraphNode_TransitionResult_71A6612B43EE8076A3E736847A5D18F0 // (BlueprintEvent) // @ game+0x5e02c90
+	void AnimNotify_FX_MakeTag_MaskFPV_Hidden(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.AnimNotify_FX_MakeTag_MaskFPV_Hidden // (BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void AnimNotify_FX_MakeTag_MaskFPV_Visible(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.AnimNotify_FX_MakeTag_MaskFPV_Visible // (BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void AnimNotify_FX_MakeSlasherInvisible(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.AnimNotify_FX_MakeSlasherInvisible // (BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void AnimNotify_FX_MakeSlasherVisible(); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.AnimNotify_FX_MakeSlasherVisible // (BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void SetAttackAnimationFromMainAB(struct FAset_Slasher_BaseAttack& AttackAnimset); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.SetAttackAnimationFromMainAB // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x5e02c90
+	void ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00(int32_t EntryPoint); // Function AB_Slasher_SubGraph_BaseAttack_00.AB_Slasher_SubGraph_BaseAttack_00_C.ExecuteUbergraph_AB_Slasher_SubGraph_BaseAttack_00 // (Final|UbergraphFunction|HasDefaults) // @ game+0x5e02c90
+};
+
